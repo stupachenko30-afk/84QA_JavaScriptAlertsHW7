@@ -23,4 +23,12 @@ public class IFramesTests extends TestBase {
                 .switchToIFrame()
                 .verifyText("Your content goes here.");
     }
+    @Test
+    public void switchBackFromIFrameTest() {
+        iFrame
+                .switchToIFrame()
+                .verifyText("Your content goes here.")
+                .switchToDefaultContent()
+                .verifyPageTitle("An iFrame containing the TinyMCE WYSIWYG Editor");
+    }
 }

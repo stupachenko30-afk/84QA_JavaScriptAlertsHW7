@@ -26,4 +26,15 @@ public class IFramePage extends BasePage {
         Assertions.assertTrue(isContainsText(text, textArea));
         return this;
     }
+    public IFramePage switchToDefaultContent() {
+        driver.switchTo().defaultContent();
+        return this;
+    }
+    @FindBy(css = "h3")
+    WebElement pageTitle;
+
+    public IFramePage verifyPageTitle(String text) {
+        Assertions.assertTrue(isContainsText(text, pageTitle));
+        return this;
+    }
 }

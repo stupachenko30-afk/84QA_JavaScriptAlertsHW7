@@ -23,8 +23,7 @@ public class DropDownPage extends BasePage {
     public DropDownPage verifySelectedOption(String option) {
         Select select = new Select(dropdown);
         Assertions.assertEquals(option,
-                select.getFirstSelectedOption().getText()
-        );
+                select.getFirstSelectedOption().getText());
         return this;
     }
 }

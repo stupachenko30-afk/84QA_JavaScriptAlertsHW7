@@ -2,6 +2,7 @@ package com.herokuapp.pages;
 
 import com.herokuapp.core.BasePage;
 import com.herokuapp.pages.alerts.AlertsPage;
+import com.herokuapp.pages.draganddrop.DragAndDropPage;
 import com.herokuapp.pages.frames.FramesPage;
 import com.herokuapp.pages.windows.WindowsPage;
 import org.openqa.selenium.WebDriver;
@@ -33,6 +34,13 @@ public class HomePage extends BasePage {
     public FramesPage getFramesPage() {
         click(framesLink);
         return new FramesPage(driver);
+    }
+    @FindBy(css = "a[href='/drag_and_drop']")
+    WebElement dragAndDropLink;
+
+    public DragAndDropPage getDragAndDropPage() {
+        click(dragAndDropLink);
+        return new DragAndDropPage(driver);
     }
 }
 

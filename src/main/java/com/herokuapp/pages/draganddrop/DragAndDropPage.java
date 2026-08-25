@@ -10,6 +10,7 @@ public class DragAndDropPage extends BasePage {
     public DragAndDropPage(WebDriver driver) {
         super(driver);
     }
+
     @FindBy(id = "column-a")
     WebElement columnA;
     @FindBy(id = "column-b")

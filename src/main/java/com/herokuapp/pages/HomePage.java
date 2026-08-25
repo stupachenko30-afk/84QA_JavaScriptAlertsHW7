@@ -3,6 +3,7 @@ package com.herokuapp.pages;
 import com.herokuapp.core.BasePage;
 import com.herokuapp.pages.alerts.AlertsPage;
 import com.herokuapp.pages.draganddrop.DragAndDropPage;
+import com.herokuapp.pages.dropdown.DropDownPage;
 import com.herokuapp.pages.frames.FramesPage;
 import com.herokuapp.pages.windows.WindowsPage;
 import org.openqa.selenium.WebDriver;
@@ -41,6 +42,13 @@ public class HomePage extends BasePage {
     public DragAndDropPage getDragAndDropPage() {
         click(dragAndDropLink);
         return new DragAndDropPage(driver);
+    }
+    @FindBy(css = "a[href='/dropdown']")
+    WebElement dropdown;
+
+    public DropDownPage getDropDownPage() {
+        click(dropdown);
+        return new DropDownPage(driver);
     }
 }
 

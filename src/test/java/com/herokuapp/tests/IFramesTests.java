@@ -29,4 +29,8 @@ public class IFramesTests extends TestBase {
                 .switchToDefaultContent()
                 .verifyPageTitle("An iFrame containing the TinyMCE WYSIWYG Editor");
     }
+    @Test
+    public void iframeIsDisplayedTest() {
+        iFrame.verifyIFrameIsDisplayed();
+    }
 }

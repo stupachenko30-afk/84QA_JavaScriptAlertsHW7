@@ -37,4 +37,8 @@ public class IFramePage extends BasePage {
         Assertions.assertTrue(isContainsText(text, pageTitle));
         return this;
     }
+    public IFramePage verifyIFrameIsDisplayed() {
+        Assertions.assertTrue(iframe.isDisplayed());
+        return this;
+    }
 }

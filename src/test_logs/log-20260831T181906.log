@@ -1,0 +1,11 @@
+993  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+1023 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+5294 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+5815 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (bcb631fbe409b2f9a07fa380afb42429)] -> css selector: a[href='/frames']]
+5818 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+6842 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (bcb631fbe409b2f9a07fa380afb42429)] -> css selector: a[href='/iframe']]
+6842 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+7032 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (bcb631fbe409b2f9a07fa380afb42429)] -> id: tinymce] contains Your content goes here.
+7032 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+7066 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (bcb631fbe409b2f9a07fa380afb42429)] -> css selector: h3] contains An iFrame containing the TinyMCE WYSIWYG Editor
+7066 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

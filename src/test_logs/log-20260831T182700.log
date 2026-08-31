@@ -1,0 +1,13 @@
+2641 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using msedgedriver 152.0.4191.53 (resolved driver for Edge 152)
+2669 [main] INFO  i.g.b.wdm.online.Downloader -- Downloading https://msedgedriver.microsoft.com/152.0.4191.53/edgedriver_win64.zip
+3801 [main] INFO  i.g.b.wdm.online.Downloader -- Extracting driver from compressed file edgedriver_win64.zip
+4168 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.edge.driver as C:\Users\asus\.cache\selenium\msedgedriver\win64\152.0.4191.53\msedgedriver.exe
+9356 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+10764 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[EdgeDriver: MicrosoftEdge on windows (fbd23f9abbfc1411cd3c2b106f739091)] -> css selector: a[href='/frames']]
+10764 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+12307 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[EdgeDriver: MicrosoftEdge on windows (fbd23f9abbfc1411cd3c2b106f739091)] -> css selector: a[href='/iframe']]
+12307 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+12474 [main] INFO  com.herokuapp.utils.MyListener -- [[EdgeDriver: MicrosoftEdge on windows (fbd23f9abbfc1411cd3c2b106f739091)] -> id: tinymce] contains Your content goes here.
+12474 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+12505 [main] INFO  com.herokuapp.utils.MyListener -- [[EdgeDriver: MicrosoftEdge on windows (fbd23f9abbfc1411cd3c2b106f739091)] -> css selector: h3] contains An iFrame containing the TinyMCE WYSIWYG Editor
+12505 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

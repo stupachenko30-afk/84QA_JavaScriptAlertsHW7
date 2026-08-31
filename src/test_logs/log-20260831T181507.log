@@ -1,0 +1,9 @@
+2323 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 151.0.7922.138 (resolved driver for Chrome 151)
+2357 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\151.0.7922.138\chromedriver.exe
+6894 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+7477 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (0b62fa442b1386bff13448fa1635f0b1)] -> css selector: a[href='/frames']]
+7478 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+8525 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (0b62fa442b1386bff13448fa1635f0b1)] -> css selector: a[href='/iframe']]
+8525 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+8677 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (0b62fa442b1386bff13448fa1635f0b1)] -> id: tinymce] contains Your content goes here.
+8677 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

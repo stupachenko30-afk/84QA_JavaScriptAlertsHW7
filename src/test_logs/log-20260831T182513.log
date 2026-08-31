@@ -1,0 +1,11 @@
+2400 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.37.1 (resolved driver for Firefox 154)
+2423 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\asus\.cache\selenium\geckodriver\win64\0.37.1\geckodriver.exe
+13251 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+14121 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (c78bf96e-4855-411b-8dac-142e889107b0)] -> css selector: a[href='/frames']]
+14123 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+15585 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (c78bf96e-4855-411b-8dac-142e889107b0)] -> css selector: a[href='/iframe']]
+15586 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+15647 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (c78bf96e-4855-411b-8dac-142e889107b0)] -> id: tinymce] contains Your content goes here.
+15647 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+15679 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (c78bf96e-4855-411b-8dac-142e889107b0)] -> css selector: h3] contains An iFrame containing the TinyMCE WYSIWYG Editor
+15680 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

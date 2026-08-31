@@ -4,6 +4,7 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.draganddrop.DragAndDropPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class DragAndDropTest extends TestBase {
@@ -25,6 +26,7 @@ public class DragAndDropTest extends TestBase {
         DAD.dragBToA().verifyDragAndDrop();
     }
     @Test
+    @Tag("smoky")
     public void dragAndDropBackTest() {
         DAD.verifyOriginalPosition().dragAToB()
                 .verifyDragAndDrop().dragBToA()

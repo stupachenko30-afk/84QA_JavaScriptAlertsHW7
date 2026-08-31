@@ -5,6 +5,7 @@ import com.herokuapp.pages.alerts.AlertsPage;
 import com.herokuapp.pages.draganddrop.DragAndDropPage;
 import com.herokuapp.pages.dropdown.DropDownPage;
 import com.herokuapp.pages.frames.FramesPage;
+import com.herokuapp.pages.frames.NestedFramesPage;
 import com.herokuapp.pages.windows.WindowsPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -49,6 +50,14 @@ public class HomePage extends BasePage {
     public DropDownPage getDropDownPage() {
         click(dropdown);
         return new DropDownPage(driver);
+    }
+
+    @FindBy(css = "a[href='/nested_frames']")
+    WebElement nestedFramesLink;
+
+    public NestedFramesPage getNestedFramesPage() {
+        click(nestedFramesLink);
+        return new NestedFramesPage(driver);
     }
 }
 

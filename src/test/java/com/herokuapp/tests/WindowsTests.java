@@ -4,6 +4,7 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.windows.WindowsPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.WebDriver;
 
@@ -38,6 +39,7 @@ public class WindowsTests extends TestBase {
                 .verifyNumberOfWindows(2);
     }
     @Test
+    @Tag("smoky")
     public void closeNewWindowTest() {
         windows
                 .clickHere()
@@ -47,4 +49,5 @@ public class WindowsTests extends TestBase {
                 .verifyNumberOfWindows(1)
                 .verifyWindowTitle("Opening a new window");
     }
+
 }

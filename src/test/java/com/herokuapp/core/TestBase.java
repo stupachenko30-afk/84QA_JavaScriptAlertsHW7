@@ -1,28 +1,27 @@
 package com.herokuapp.core;
 
+import com.herokuapp.utils.MyListener;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.events.EventFiringDecorator;
 
 import java.time.Duration;
 
-public class TestBase  {
+public class TestBase {
+
     protected WebDriver driver;
-    String browser;
+    protected ApplicationManager app =
+            new ApplicationManager(System.getProperty("browser", "chrome"));
 
     @BeforeEach
-    public void init(){
-        driver = new ChromeDriver();
-        driver.get("https://the-internet.herokuapp.com/");
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(40));
+    public void init() {
+        driver = app.start();
     }
 
     @AfterEach
     public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
+        app.stop();
     }
 }

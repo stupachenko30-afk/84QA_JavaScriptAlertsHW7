@@ -4,7 +4,9 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.alerts.AlertsPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
+import org.openqa.selenium.By;
 
 public class AlertsTest extends TestBase {
 
@@ -63,10 +65,16 @@ public class AlertsTest extends TestBase {
                 .verifyResult("You entered:");
     }
     @Test
+    @Tag("smoky")
     public void jsAlertTextTest() {
         alerts
                 .getAlerts()
                 .verifyAlertText("I am a JS Alert")
                 .acceptAlert();
+    }
+    @Test
+    public void listenerErrorTest() {
+
+        driver.findElement(By.id("no-such-element"));
     }
 }

@@ -4,6 +4,7 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.dropdown.DropDownPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 public class DropDownTest extends TestBase {
@@ -24,6 +25,7 @@ public class DropDownTest extends TestBase {
     }
 
     @Test
+    @Tag("smoky")
     public void selectOption2Test() {
         dropDP.selectOption("Option 2")
                 .verifySelectedOption("Option 2");

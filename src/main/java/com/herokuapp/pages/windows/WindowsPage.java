@@ -49,5 +49,6 @@ public class WindowsPage extends BasePage {
         driver.switchTo().window(originalWindow);
         return this;
     }
+
 }
 

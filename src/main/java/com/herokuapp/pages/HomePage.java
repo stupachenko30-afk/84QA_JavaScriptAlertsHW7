@@ -20,7 +20,8 @@ public class HomePage extends BasePage {
     @FindBy(css = "a[href$='/javascript_alerts']")
     WebElement alertsLink;
     public AlertsPage getAlertsPage(){
-        clickWithJS(alertsLink);
+        click(alertsLink);
+        //clickWithJS(alertsLink);
         return new AlertsPage(driver);
     }
     @FindBy(css = "a[href='/windows']")

@@ -16,11 +16,7 @@ public class DragAndDropPage extends BasePage {
     @FindBy(id = "column-b")
     WebElement columnB;
     public DragAndDropPage dragAToB() {
-        actions
-                .clickAndHold(columnA)
-                .moveToElement(columnB)
-                .release()
-                .perform();
+        dragAndDropWithJS(columnA, columnB);
         return this;
     }
     public DragAndDropPage verifyDragAndDrop() {

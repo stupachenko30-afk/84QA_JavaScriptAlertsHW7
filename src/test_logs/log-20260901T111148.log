@@ -1,0 +1,3 @@
+4708 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 152.0.7977.64 (resolved driver for Chrome 152)
+4735 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\152.0.7977.64\chromedriver.exe
+11428 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/

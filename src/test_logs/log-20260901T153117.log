@@ -1,0 +1,11 @@
+761  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.37.1 (resolved driver for Firefox 154)
+786  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\asus\.cache\selenium\geckodriver\win64\0.37.1\geckodriver.exe
+8580 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+9300 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (349dbd7f-68c9-4b44-9338-c05df252e828)] -> css selector: a[href='/windows']]
+9300 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+9384 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (349dbd7f-68c9-4b44-9338-c05df252e828)] -> css selector: a[href='/windows/new']]
+9384 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+9595 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (349dbd7f-68c9-4b44-9338-c05df252e828)] -> css selector: h3] contains New Window
+9596 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+9670 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (349dbd7f-68c9-4b44-9338-c05df252e828)] -> css selector: h3] contains Opening a new window
+9670 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

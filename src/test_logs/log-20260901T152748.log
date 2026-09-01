@@ -1,0 +1,11 @@
+717  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 152.0.7977.64 (resolved driver for Chrome 152)
+741  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\152.0.7977.64\chromedriver.exe
+4874 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+5429 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (4bf895e94296f758e6d16657ac909377)] -> css selector: a[href='/windows']]
+5429 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+5561 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (4bf895e94296f758e6d16657ac909377)] -> css selector: a[href='/windows/new']]
+5562 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+5748 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (4bf895e94296f758e6d16657ac909377)] -> css selector: h3] contains New Window
+5749 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+5866 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (4bf895e94296f758e6d16657ac909377)] -> css selector: h3] contains Opening a new window
+5866 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

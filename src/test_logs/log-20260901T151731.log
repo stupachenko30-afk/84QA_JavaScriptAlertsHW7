@@ -1,0 +1,17 @@
+730  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.37.1 (resolved driver for Firefox 154)
+751  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\asus\.cache\selenium\geckodriver\win64\0.37.1\geckodriver.exe
+7598 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+8297 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> css selector: a[href='/drag_and_drop']]
+8297 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+8329 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-a] contains A
+8329 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8356 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-b] contains B
+8356 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8410 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-a] contains B
+8410 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8427 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-b] contains A
+8427 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8470 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-a] contains A
+8470 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8490 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (8837998e-eea2-4335-8089-a78425413669)] -> id: column-b] contains B
+8490 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

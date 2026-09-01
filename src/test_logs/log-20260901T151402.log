@@ -1,0 +1,17 @@
+852  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.37.1 (resolved driver for Firefox 154)
+879  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\asus\.cache\selenium\geckodriver\win64\0.37.1\geckodriver.exe
+7730 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+8456 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> css selector: a[href='/drag_and_drop']]
+8456 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+8491 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> id: column-a] contains A
+8492 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8516 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> id: column-b] contains B
+8516 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8561 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> id: column-a] contains B
+8561 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8579 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> id: column-b] contains A
+8579 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8853 [main] INFO  com.herokuapp.utils.MyListener -- [org.openqa.selenium.interactions.Sequence@2539cd1c]
+8853 [main] INFO  com.herokuapp.utils.MyListener -- ********************************
+8868 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (f52a3bc0-d982-424b-916d-709225c15704)] -> id: column-a] contains B
+8868 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

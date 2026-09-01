@@ -26,11 +26,7 @@ public class DragAndDropPage extends BasePage {
     }
 
     public DragAndDropPage dragBToA() {
-        actions
-                .clickAndHold(columnB)
-                .moveToElement(columnA)
-                .release()
-                .perform();
+        dragAndDropWithJS(columnB, columnA);
         return this;
     }
     public DragAndDropPage verifyOriginalPosition() {

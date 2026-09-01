@@ -14,8 +14,10 @@ import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.nio.file.Files;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.Collection;
-import java.util.Random;
+
 
 public class MyListener implements WebDriverListener {
 
@@ -35,8 +37,10 @@ public class MyListener implements WebDriverListener {
             logger.error("Method --> {}", method.getName());
             logger.error("Target exception --> {}", e.getTargetException());
 
-            int i = new Random().nextInt(1000);
-            String link = "screenshots/screen_" + i + ".png";
+            String time = LocalDateTime.now()
+                    .format(DateTimeFormatter.ofPattern("yyyy-MM-dd_HH-mm-ss"));
+
+            String link = "screenshots/screen_" + time + ".png";
 
             logger.error("Screen with error --> {}", link);
 

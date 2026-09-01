@@ -28,7 +28,7 @@ public class HomePage extends BasePage {
     WebElement windowsLink;
 
     public WindowsPage getWindowsPage() {
-        clickWithJS(windowsLink);
+        click(windowsLink);
         return new WindowsPage(driver);
     }
     @FindBy(css = "a[href='/frames']")

@@ -12,6 +12,7 @@ public class BrokenImagesPage extends BasePage {
     public BrokenImagesPage(WebDriver driver) {
         super(driver);
     }
+
         @FindBy(css = "div.example img")
         List<WebElement> images;
 

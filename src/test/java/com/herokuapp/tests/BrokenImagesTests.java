@@ -17,7 +17,6 @@ public class BrokenImagesTests extends TestBase {
 
     @Test
     public void brokenImagesTest() {
-
         brokenImages
                 .verifyBrokenImages();
     }

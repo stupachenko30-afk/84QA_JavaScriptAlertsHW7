@@ -1,0 +1,11 @@
+com\herokuapp\core\BasePage.class
+com\herokuapp\pages\draganddrop\DragAndDropPage.class
+com\herokuapp\pages\frames\NestedFramesPage.class
+com\herokuapp\pages\frames\IFramePage.class
+com\herokuapp\utils\MyListener.class
+com\herokuapp\pages\alerts\AlertsPage.class
+com\herokuapp\pages\frames\FramesPage.class
+com\herokuapp\core\ApplicationManager.class
+com\herokuapp\pages\HomePage.class
+com\herokuapp\pages\dropdown\DropDownPage.class
+com\herokuapp\pages\windows\WindowsPage.class

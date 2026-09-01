@@ -1,0 +1,7 @@
+com\herokuapp\tests\DragAndDropTest.class
+com\herokuapp\tests\NestedFramesTests.class
+com\herokuapp\core\TestBase.class
+com\herokuapp\tests\IFramesTests.class
+com\herokuapp\tests\DropDownTest.class
+com\herokuapp\tests\AlertsTest.class
+com\herokuapp\tests\WindowsTests.class

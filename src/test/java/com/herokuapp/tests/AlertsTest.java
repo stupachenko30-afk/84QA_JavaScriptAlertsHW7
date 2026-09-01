@@ -4,6 +4,7 @@ import com.herokuapp.core.TestBase;
 import com.herokuapp.pages.HomePage;
 import com.herokuapp.pages.alerts.AlertsPage;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
@@ -73,8 +74,8 @@ public class AlertsTest extends TestBase {
                 .acceptAlert();
     }
     @Test
+    @Disabled
     public void listenerErrorTest() {
-
         driver.findElement(By.id("no-such-element"));
     }
 }

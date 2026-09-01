@@ -53,8 +53,19 @@ public abstract class BasePage {
         }else {
             driver.switchTo().alert().accept();
             return true;
+        }}
+        public void dragAndDropWithJS(WebElement source, WebElement target) {
+            String script =
+                    "var source = arguments[0];" +
+                            "var target = arguments[1];" +
+                            "var dataTransfer = new DataTransfer();" +
+                            "source.dispatchEvent(new DragEvent('dragstart', {dataTransfer: dataTransfer}));" +
+                            "target.dispatchEvent(new DragEvent('drop', {dataTransfer: dataTransfer}));" +
+                            "source.dispatchEvent(new DragEvent('dragend', {dataTransfer: dataTransfer}));";
+
+            js.executeScript(script, source, target);
         }
-    }
+
     public boolean isContainsText(String text, WebElement element) {
         return element.getText().contains(text);
     }

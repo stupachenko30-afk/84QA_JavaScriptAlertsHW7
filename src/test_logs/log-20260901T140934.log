@@ -1,0 +1,21 @@
+2717 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 152.0.7977.64 (resolved driver for Chrome 152)
+2733 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\152.0.7977.64\chromedriver.exe
+6762 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+7328 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> css selector: a[href='/drag_and_drop']]
+7328 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+7367 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-a] contains A
+7367 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+7402 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-b] contains B
+7403 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+7699 [main] INFO  com.herokuapp.utils.MyListener -- [org.openqa.selenium.interactions.Sequence@5d66e944]
+7700 [main] INFO  com.herokuapp.utils.MyListener -- ********************************
+7730 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-a] contains B
+7730 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+7751 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-b] contains A
+7752 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8022 [main] INFO  com.herokuapp.utils.MyListener -- [org.openqa.selenium.interactions.Sequence@3e046e39]
+8023 [main] INFO  com.herokuapp.utils.MyListener -- ********************************
+8060 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-a] contains A
+8060 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8091 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (9e668d5c3c9fcf545256824dc2fe62a8)] -> id: column-b] contains B
+8091 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

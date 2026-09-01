@@ -1,0 +1,13 @@
+728  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using geckodriver 0.37.1 (resolved driver for Firefox 154)
+753  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.gecko.driver as C:\Users\asus\.cache\selenium\geckodriver\win64\0.37.1\geckodriver.exe
+7666 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+8353 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[FirefoxDriver: firefox on windows (6fcdd23c-6bad-483e-80da-5602f389f13e)] -> css selector: a[href='/drag_and_drop']]
+8353 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+8384 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (6fcdd23c-6bad-483e-80da-5602f389f13e)] -> id: column-a] contains A
+8384 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8410 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (6fcdd23c-6bad-483e-80da-5602f389f13e)] -> id: column-b] contains B
+8410 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+8681 [main] INFO  com.herokuapp.utils.MyListener -- [org.openqa.selenium.interactions.Sequence@3a7e365]
+8683 [main] INFO  com.herokuapp.utils.MyListener -- ********************************
+8704 [main] INFO  com.herokuapp.utils.MyListener -- [[FirefoxDriver: firefox on windows (6fcdd23c-6bad-483e-80da-5602f389f13e)] -> id: column-a] contains A
+8704 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

@@ -16,7 +16,11 @@ public class DragAndDropPage extends BasePage {
     @FindBy(id = "column-b")
     WebElement columnB;
     public DragAndDropPage dragAToB() {
-        actions.dragAndDrop(columnA, columnB).perform();
+        actions
+                .clickAndHold(columnA)
+                .moveToElement(columnB)
+                .release()
+                .perform();
         return this;
     }
     public DragAndDropPage verifyDragAndDrop() {
@@ -24,8 +28,13 @@ public class DragAndDropPage extends BasePage {
         Assertions.assertEquals("A", columnB.getText());
         return this;
     }
+
     public DragAndDropPage dragBToA() {
-        actions.dragAndDrop(columnB, columnA).perform();
+        actions
+                .clickAndHold(columnB)
+                .moveToElement(columnA)
+                .release()
+                .perform();
         return this;
     }
     public DragAndDropPage verifyOriginalPosition() {

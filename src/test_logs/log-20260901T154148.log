@@ -1,0 +1,17 @@
+979  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 152.0.7977.64 (resolved driver for Chrome 152)
+1020 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as C:\Users\asus\.cache\selenium\chromedriver\win64\152.0.7977.64\chromedriver.exe
+5697 [main] INFO  com.herokuapp.utils.MyListener -- We opened the site https://the-internet.herokuapp.com/
+6306 [main] INFO  com.herokuapp.utils.MyListener -- We clicked on [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> css selector: a[href='/drag_and_drop']]
+6307 [main] INFO  com.herokuapp.utils.MyListener -- ****************************
+6360 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-a] contains A
+6360 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+6397 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-b] contains B
+6397 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+6487 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-a] contains B
+6487 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+6513 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-b] contains A
+6513 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+6589 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-a] contains A
+6589 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************
+6618 [main] INFO  com.herokuapp.utils.MyListener -- [[ChromeDriver: chrome on windows (831480cc9c980396a21199ebfba08552)] -> id: column-b] contains B
+6618 [main] INFO  com.herokuapp.utils.MyListener -- ****************************************

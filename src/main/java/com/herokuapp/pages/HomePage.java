@@ -2,6 +2,7 @@ package com.herokuapp.pages;
 
 import com.herokuapp.core.BasePage;
 import com.herokuapp.pages.alerts.AlertsPage;
+import com.herokuapp.pages.brokenimage.BrokenImagesPage;
 import com.herokuapp.pages.draganddrop.DragAndDropPage;
 import com.herokuapp.pages.dropdown.DropDownPage;
 import com.herokuapp.pages.frames.FramesPage;
@@ -59,6 +60,13 @@ public class HomePage extends BasePage {
     public NestedFramesPage getNestedFramesPage() {
         click(nestedFramesLink);
         return new NestedFramesPage(driver);
+    }
+    @FindBy(css = "a[href='/broken_images']")
+    WebElement brokenImagesLink;
+
+    public BrokenImagesPage getBrokenImagesPage() {
+        click(brokenImagesLink);
+        return new BrokenImagesPage(driver);
     }
 }
 
